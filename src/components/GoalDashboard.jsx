@@ -5,7 +5,7 @@ import GoalList from './GoalList';
 import AddGoalForm from './AddGoalForm';
 import './GoalDashboard.css';
 
-const API_URL = 'https://json-server-se6b.onrender.com';
+const API_URL = 'https://json-server-se6b.onrender.com/goals';
 
 function GoalDashboard() {
   const [goals, setGoals] = useState([]);
